@@ -1,0 +1,41 @@
+{
+    "name": "adsi/ejemplouno",
+    "description": "Ejemplo de uso de un archivo composer.",
+    "type": "project",
+    "keywords": [
+        "ejemplo", "php", "proyecto"
+    ],
+    "homepage": "https://github.com/EjemplosADSI/EjemploProyectoUno/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Ojeda",
+            "email": "daom89@gmail.com",
+            "role": "developer"
+        },
+        {
+            "name": "Programador Dos",
+            "email": "program1@nomelose.com",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/EjemplosADSI/EjemploProyectoUno/issues"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "nesbot/carbon" : "^2.55.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}

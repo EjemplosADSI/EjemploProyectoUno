@@ -1,0 +1,20 @@
+{
+    "name": "ejemplouno",
+    "version": "0.0.1",
+    "description": "Ejemplo de uso de un archivo npm.",
+    "keywords": [
+        "ejemplo",
+        "php",
+        "proyecto"
+    ],
+    "repository": "https://github.com/EjemplosADSI/EjemploProyectoUno/",
+    "homepage": "https://github.com/EjemplosADSI/EjemploProyectoUno/",
+    "author": "Diego Ojeda <daom89@gmail.com>",
+    "dependencies": {
+        "bootstrap": ">=5.1.3",
+        "chart.js": "^3.6.2",
+        "feather-icons": ">=4.28.0",
+        "jquery": ">=3.6.0"
+    },
+    "main": "index"
+}
